@@ -2,7 +2,8 @@
 
 ## 과제내용
 
-과제 #1) $$f(x) = f(a) + f'(a)(x-a) + {f''(a)\over 2!}(x-a)^2 + ... + {f^{(n)}(a)\over n!}(x-a)^n+...$$ Taylor Series를 이용하여, x가 0~1에 대해 $$f(x) = e^{-x}$$ 파형과 함수값들을 나타내는 funciton 파일 작성
+과제 #1) 
+$$f(x) = f(a) + f'(a)(x-a) + {f''(a)\over 2!}(x-a)^2 + ... + {f^{(n)}(a)\over n!}(x-a)^n+...$$ Taylor Series를 이용하여, x가 0~1에 대해 $$f(x) = e^{-x}$$ 파형과 함수값들을 나타내는 funciton 파일 작성
 
 
 
