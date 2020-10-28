@@ -2,7 +2,9 @@
 
 # power_2016113016.m
 
-power method로 대칭 행렬의 가장 큰 eigenvalue와 가장 작은 eigenvalue 구하고 그에 따른 eigenvector 구하는 function 파일
+## 과제 내용
+
+과제 #2) power method로 대칭 행렬의 가장 큰 eigenvalue와 가장 작은 eigenvalue 구하고 그에 따른 eigenvector 구하기
 
 ## 필수 조건
 
