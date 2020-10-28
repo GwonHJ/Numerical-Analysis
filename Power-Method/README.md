@@ -36,27 +36,28 @@ power method로 대칭 행렬의 가장 큰 eigenvalue와 가장 작은 eigenval
 square와 symmentric을 만족하는 행렬인지 확인
 
 if A ~= transpose(A)를 이용하하여 symmentric인지 확인 불가 : 행렬은 비교하는 함수를 따로 사용해줘야함.
+```matlab
+		x = input('원하는 값을 입력하세요. (가장 큰 eigenvalue : 1, 가장 작은 eigenvalue : 2)');
+		u = ones(m,1);
+    ital = 0;
+    eig=1;
 
-        x = input('원하는 값을 입력하세요. (가장 큰 eigenvalue : 1, 가장 작은 eigenvalue : 2)');
-
-        u = ones(m,1);
-        ital = 0;
-        eig=1;
-
-        if x==1,
-            while(1)
-            B=A*u;
-            old=eig;
-            if max(B)~=max(abs(B)),
-                eig=-max(abs(B));
-            else
-                eig=max(abs(B));
-            end
+    if x==1,
+        while(1)
+        B=A*u;
+        old=eig;
+        if max(B)~=max(abs(B)),
+            eig=-max(abs(B));
+        else
+            eig=max(abs(B));
+        end
+```
 행렬 절댓값의 가장 큰 값이 음수일 경우 eigen value값을 절댓값에 음수를 취해서 가져와야한다.
 
 판단 방법 : B행렬의 최댓값과 B행렬 절댓값의 최댓값이 같으면 양수인 경우 다르면 음수인 경우
 
-            u=B/eig;
+```matlab
+						u=B/eig;
             ea = abs((eig-old)/eig)*100;
 
             ital = ital+1;
@@ -96,8 +97,6 @@ if A ~= transpose(A)를 이용하하여 symmentric인지 확인 불가 : 행렬�
 
         end
 
-
-
         end
-
+```
 
