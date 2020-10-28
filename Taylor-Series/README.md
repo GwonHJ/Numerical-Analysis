@@ -3,7 +3,9 @@
 ## 과제내용
 
 과제 #1) 
-$$f(x) = f(a) + f'(a)(x-a) + {f''(a)\over 2!}(x-a)^2 + ... + {f^{(n)}(a)\over n!}(x-a)^n+...$$ Taylor Series를 이용하여, x가 0~1에 대해 $$f(x) = e^{-x}$$ 파형과 함수값들을 나타내는 funciton 파일 작성
+![수치해석1](https://user-images.githubusercontent.com/45057466/97482481-8eb74c00-1999-11eb-9e76-fb8333a29dac.png)
+Taylor Series를 이용하여, x가 0~1에 대해
+![수치해석2](https://user-images.githubusercontent.com/45057466/97482484-90810f80-1999-11eb-99c9-2930ec485ff2.png) 파형과 함수값들을 나타내는 funciton 파일 작성
 
 
 
