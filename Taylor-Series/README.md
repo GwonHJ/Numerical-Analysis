@@ -1,8 +1,10 @@
 # cos_Taylor_2016113016.m
 
-f(x) = cosx 인 함수를 Taylor Series를 이용하여 파형을 나타내는 function 파일
+## 과제내용
 
-x가 0 ~ pi/2에 대해 cos파형을 나타내는 fuction파일
+과제 #1) $$f(x) = f(a) + f'(a)(x-a) + {f''(a)\over 2!}(x-a)^2 + ... + {f^{(n)}(a)\over n!}(x-a)^n+...$$ Taylor Series를 이용하여, x가 0~1에 대해 $$f(x) = e^{-x}$$ 파형과 함수값들을 나타내는 funciton 파일 작성
+
+
 
 ## 입력 예시
 
